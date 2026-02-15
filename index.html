@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vishwaradhya | Frontend Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Floating Navbar -->
+<nav class="navbar">
+    <h2 class="logo">Vishwaradhya</h2>
+
+    <ul class="nav-links">
+        <li><a href="#about" class="nav-link active">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+
+    <div class="theme-toggle">
+        <input type="checkbox" id="darkModeToggle">
+        <label for="darkModeToggle" class="toggle-label">
+            <span class="toggle-ball"></span>
+        </label>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <h1>Hi, I'm <span>Vishwaradhya</span></h1>
+    <h2><span id="typing"></span></h2>
+    <a href="#projects" class="btn-glow">View My Work</a>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="fade-section">
+    <h2>About Me</h2>
+    <p>
+        Frontend Developer with 1.5 years of Java Full Stack internship experience.
+        Passionate about building scalable web applications using React, Spring Boot & AI-driven solutions.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="fade-section">
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+        <div class="skill">Java</div>
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Tailwind CSS</div>
+        <div class="skill">Bootstrap</div>
+        <div class="skill">React.js</div>
+        <div class="skill">Spring Boot</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">MySQL</div>
+        <div class="skill">MongoDB</div>
+        <div class="skill">TensorFlow</div>
+        <div class="skill">Deep Learning</div>
+    </div>
+</section>
+
+<!-- PROJECT -->
+<section id="projects" class="fade-section">
+    <h2>Featured Project</h2>
+    <div class="project-card">
+        <h3>Age & Gender Detection Using Deep Learning</h3>
+        <p>AI-based system using CNN (VGG16 & ResNet) with TensorFlow and OpenCV.</p>
+        <button class="btn-glow" onclick="showDetails()">Explore</button>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="fade-section">
+    <h2>Contact Me</h2>
+    <p>📍 Bengaluru, Karnataka</p>
+    <p>📧 vishwaradhyachavani@gmail.com</p>
+    <p>📞 +91 8073916543</p>
+</section>
+
+<footer>
+    © 2026 Vishwaradhya • Built with Passion 🚀
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
